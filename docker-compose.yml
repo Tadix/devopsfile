@@ -136,7 +136,6 @@ services:
     volumes:
       - ./nginx/default.conf:/etc/nginx/nginx.conf:ro
     depends_on:
-      - reactui
       - ngui
     networks:
       - network
